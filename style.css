@@ -1,3 +1,84 @@
-body {
-    background: blue;
-  }
+body{
+    background-color: #161b21;
+    background-size: contain;
+    background-position: center;
+}
+.logo{
+    color:#722620;
+    font-size:35px;
+    letter-spacing: 2px;
+}
+nav{
+    justify-content:flex-start;
+    display:flex;
+    align-items: center;
+    padding-top: opx;
+}
+nav ul li{
+    display: inline-block;
+    padding:10px 25px;
+    list-style-type: none;
+    
+}
+ul li a{
+    color:#722620;
+    text-decoration: none;
+    font-weight: bold;
+}
+.image{
+    height: 300px;
+    justify-items:right;
+}
+.content{
+    justify-content: space-around;
+    align-items: center;
+    display:flex;
+    margin: auto;
+    max-width: 95%;
+}
+h4{
+  color: #722620;
+  margin:20px 0px 20px;
+  font-size:20px;
+}
+h1{
+    color:white;
+    margin:20px 0px 20px;
+    font-size: 50px;
+    font-style: italic;
+}
+h3{
+    color:#722620;
+    font-size:20px;
+}
+h2{
+    color:#722620;
+    font-size: 30px;
+
+}
+h5{
+    color:#722620;
+    font-size: 15px;
+}
+p{
+    color:white;
+    font-weight: bold;
+}
+#skills ul li{
+    color: white;
+}
+#contacts{
+    background-color:#292929;
+}
+#contacts ul li{
+    color:white;
+}
+#contacts p{
+    color:white;
+}
+.contact-box{
+    display: flex;
+}
+
+
+
